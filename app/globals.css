@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+@layer components{
+  .max-container{
+    max-width: 1520px;
+    margin: 0 auto ;
+  }
+}
+.dropdown{
+  @apply absolute -right-[60px] z-20 mt-[270px] xl:mx-48 lg:mx-24 mx-14 p-6 max-w-lg rounded-lg bg-white min-w-[210px] flex flex-col justify-start items-end gap-4 shadow-md;
+}
+.shoesCardOnHover{
+  @apply  hover:scale-[1.04] transition duration-500 ;
+}
