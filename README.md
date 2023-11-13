@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 # Site Preview:
-(https://github.com/anesMoB/nike-shop.github.io/blob/main/nike-eshop.jpeg)
+![Screenshot of the hole wab apge](https://github.com/anesMoB/nike-shop.github.io/blob/main/nike-eshop.jpeg)
