@@ -48,15 +48,15 @@ export const Stats=[
 
 export const heroImgages=[
     {
-        imgUrl:"@/public/assets/images/big-shoe1.png",
+        imgUrl:"./assets/images/big-shoe1.png",
         imgAlt:"big-shoe1",
     },
     {
-        imgUrl:"@/public/assets/images/big-shoe2.png",
+        imgUrl:"./assets/images/big-shoe2.png",
         imgAlt:"big-shoe2",
     },
     {
-        imgUrl:"@/public/assets/images/big-shoe3.png",
+        imgUrl:"./assets/images/big-shoe3.png",
         imgAlt:"big-shoe3",
     },
 ];
