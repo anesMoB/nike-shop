@@ -1,4 +1,7 @@
 import { hamburger,arrowRight } from "@/public/assets/icons";
+import { bigShoe1 } from "@/public/assets/images/index";
+
+
 
 /* --------------------------  IMAGES & ICONS & TEXTS ---------------------- */
 
@@ -48,7 +51,7 @@ export const Stats=[
 
 export const heroImgages=[
     {
-        imgUrl:"./assets/images/big-shoe1.png",
+        imgUrl:bigShoe1,
         imgAlt:"big-shoe1",
     },
     {
