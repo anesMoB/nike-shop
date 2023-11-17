@@ -20,7 +20,7 @@ const PopularProductsCard = ({image,imageAlt,imageWidth,imageHeight,productName,
         <Image src={image} alt={imageAlt} width={imageWidth} height={imageHeight}  className="object-contain rounded-none"/>
  </div>
     <div className='flex justify-center items-center gap-2'>
-    <Image src={"/assets/icons/star.svg"} alt={'Rating'}  width={25} height={25} />
+    <Image src={"./assets/icons/star.svg"} alt={'Rating'}  width={25} height={25} />
     <h1>({productRating})</h1>
     </div>
     <h1 className='text-2xl font-bold leading-6'>{productName}</h1>
