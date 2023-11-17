@@ -1,5 +1,4 @@
 import { hamburger,arrowRight } from "@/public/assets/icons";
-import { bigShoe1 } from "@/public/assets/images/index";
 
 
 
@@ -51,7 +50,7 @@ export const Stats=[
 
 export const heroImgages=[
     {
-        imgUrl:bigShoe1,
+        imgUrl:"./assets/images/big-shoe1.png",
         imgAlt:"big-shoe1",
     },
     {
@@ -71,7 +70,7 @@ export const PopularProductsTexts=["Our","Popular","Products","Experience top-no
 
 export const popularProducts=[
     {
-        imgUrl:"@/public/assets/images/shoe4.svg",
+        imgUrl:"./assets/images/shoe4.svg",
         imgAlt:"shoe4",
         productName:"Nike Air Jordan v9",
         productPrice:200,
@@ -79,7 +78,7 @@ export const popularProducts=[
 
     },
     {
-        imgUrl:"@/public/assets/images/shoe5.svg",
+        imgUrl:"./assets/images/shoe5.svg",
         imgAlt:"shoe5",
         productName:"Nike Air Jordan v10",
         productPrice:250,
@@ -87,7 +86,7 @@ export const popularProducts=[
 
     },
     {
-        imgUrl:"@/public/assets/images/shoe6.svg",
+        imgUrl:"./assets/images/shoe6.svg",
         imgAlt:"shoe6",
         productName:"Nike Air Jordan v11",
         productPrice:300,
@@ -95,7 +94,7 @@ export const popularProducts=[
 
     },
     {
-        imgUrl:"@/public/assets/images/shoe7.svg",
+        imgUrl:"./assets/images/shoe7.svg",
         imgAlt:"shoe7",
         productName:"Nike Air Jordan v12",
         productPrice:350,
@@ -106,24 +105,24 @@ export const popularProducts=[
 
 /* ***** ABOUT US SECTION  ***** */
 
-export const AboutUsImg='@/public/assets/images/shoe8.svg';
+export const AboutUsImg='./assets/images/shoe8.svg';
 export const AboutUsTexts=["We Provide You"," Super Quality","  Shoes","Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.","Our dedication to detail and excellence ensures your satisfaction","view details"]
 
 /* ***** SERVICES SECTION  ***** */
 
 export const ServicesContent=[
     {
-        serviceIcon:"@/public/assets/icons/truck-fast.svg",
+        serviceIcon:"./assets/icons/truck-fast.svg",
         serviceTitle:"Free shipping",
         serviceDescription:"Enjoy seamless shopping with our complimentary shipping service.",
     },
     {
-        serviceIcon:"@/public/assets/icons/shield-tick.svg",
+        serviceIcon:"./assets/icons/shield-tick.svg",
         serviceTitle:"Secure Payment",
         serviceDescription:"Experience worry-free transactions with our secure payment options.",
     },
     {
-        serviceIcon:"@/public/assets/icons/support.svg",
+        serviceIcon:"./assets/icons/support.svg",
         serviceTitle:"Love to help you",
         serviceDescription:"Our dedicated team is here to assist you every step of the way.",
     }
@@ -134,7 +133,7 @@ export const ServicesContent=[
 
 /* ***** SPECIAL OFFER SECTION  ***** */
 
-export const SpecialOfferImg="@/public/assets/images/offer.svg";
+export const SpecialOfferImg="./assets/images/offer.svg";
 export const SpecialOfferTexts=["Special","  Offer","Embark on a shopping journey that redefines your experience with unbeatable deals. From premier selections to incredible savings, we offer unparalleled value that sets us apart.","Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.","Shop now","Learn more"]
 
 /* ***** TESTIMONIES SECTION  ***** */
@@ -144,13 +143,13 @@ export const TESTIMONIESTexts=["What Our ","Customers"," Say?","Hear genuine sto
 export const reviews=[
 
     {
-        reviewerImg:"@/public/assets/images/customer1.jpeg",
+        reviewerImg:"./assets/images/customer1.jpeg",
         reviewerDescription:"The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
         reviewerName:"Morich Brown",
         reviewerRating:4.5,
     },
     {
-        reviewerImg:"@/public/assets/images/customer2.svg",
+        reviewerImg:"./assets/images/customer2.svg",
         reviewerDescription:"The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
         reviewerName:"Lota Mongeskar",
         reviewerRating:4.5,
@@ -164,17 +163,17 @@ export const SUBSCRIPTIONTexts=["Sign Up for ","Updates"," & Newsletter","Sign U
 /* ***** FOOTER SECTION  ***** */
 
 export const footerLogo={
-    logo:"@/public/assets/images/footer-logo.svg"
+    logo:"./assets/images/footer-logo.svg"
 }
 
 
 export const socialMedias=[
     {
-        icon:"@/public/assets/icons/facebook.svg",
+        icon:"./assets/icons/facebook.svg",
         href:"/"
     },
     {
-        icon:"@/public/assets/icons/instagram.svg",
+        icon:"./assets/icons/instagram.svg",
         href:"/"
     },
     {
